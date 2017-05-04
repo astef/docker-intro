@@ -1,4 +1,4 @@
----?image=logo-big.png
+---?image=assets/image/logo-big.png
 ---?include=topics/intro.md
 ---?include=topics/engine.md
 ---?include=topics/objects.md

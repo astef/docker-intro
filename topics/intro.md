@@ -4,4 +4,4 @@
 +++
 
 ### В сравнении с виртуальными машинами
-![Docker Engine](assets/docker_vm.png)
+![Docker Engine](assets/image/docker_vm.png)

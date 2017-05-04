@@ -1,5 +1,5 @@
 ## Клиент docker
-![Docker Client](assets/DockerClient.png)
+![Docker Client](assets/image/DockerClient.png)
 
 +++
 ## Попробуем команды
