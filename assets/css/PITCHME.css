@@ -1,3 +1,7 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
 .reveal .slides {
     text-align: left;
 }
