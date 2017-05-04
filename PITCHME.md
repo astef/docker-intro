@@ -1,28 +1,16 @@
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+#Используем Docker
+
+![Docker logo](assets/large_v-trans.png)
+
 ---
-Sometimes you want numbered lists:
-
-1. One
-2. Two
-3. Three
-
-Sometimes you want bullet points:
-
-* Start a line with a star
-* Profit!
-
-Alternatively,
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-
-
-Goodbye!
+##Что такое Docker?
+>Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в среде виртуализации на уровне операционной системы. Позволяет «упаковать» приложение со всем его окружением и зависимостями в контейнер, который может быть перенесён на любую Linux-систему с поддержкой cgroups в ядре, а также предоставляет среду по управлению контейнерами
 
 +++
 
-Adiós!
+###Docker Engine
+![Docker Engine](assets/docker_vm.png)
 
-![Docker logo](assets/large_v-trans.png)
++++
+###Docker Client
+![Docker Client](assets/client.png)
