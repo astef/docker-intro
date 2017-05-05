@@ -17,5 +17,11 @@ sudo docker run -d -p 35200:8080 \
 ```
 +++
 ### Попробуем Portainer
+```shell
+docker run -d -p 9000:9000 \
+  --privileged \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  portainer/portainer
+```
 
 
