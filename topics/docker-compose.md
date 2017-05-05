@@ -1,6 +1,14 @@
 ## Docker Compose
 Простой способ определять мультиконтейнерные приложения.
 
+Типичный пример использования:
+```shell
+$ docker-compose up -d
+$ ./run_tests
+$ docker-compose down
+```
++++
+### docker-compose.yml
 ```yaml
 version: '3'
 services:
@@ -67,3 +75,6 @@ services:
 networks:
   main:    
 ```
++++
+
+
