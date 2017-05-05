@@ -1,5 +1,7 @@
 ## Основные объекты API
-- `images`
-- `containers`
-- `networks`
-- `volumes`
+- `images` - образы
+- `containers` - контейнеры
+- `networks` - сети
+- `volumes` - тома
++++
+### Образы

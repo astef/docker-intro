@@ -1,4 +1,2 @@
-vertical-center : false
 slide-number: true
-logo: assets/image/logo.png
 theme-override : assets/css/PITCHME.css
