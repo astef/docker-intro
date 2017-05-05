@@ -39,7 +39,7 @@ EXPOSE 5432
 * Каждый контейнер - обычная программа с вводом и выводом
 * `ENTRYPOINT` - точка входа
 * `ENTRYPOINT` по умолчанию `/bin/sh -c`
-
++++
 ### Управление образами
 - Docker Hub<!-- .element: class="fragment" -->
   - реестр по умолчанию<!-- .element: class="fragment" -->
