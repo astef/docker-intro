@@ -23,6 +23,5 @@ docker run -d -p 83:83 \
 docker run --rm -it \
     --name ctop
     -e DOCKER_HOST=tcp://dev10-srv16:2375
-    -v //var/run/docker.sock:/var/run/docker.sock
     quay.io/vektorlab/ctop
 ```
