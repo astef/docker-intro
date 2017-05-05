@@ -17,11 +17,8 @@ docker run -d -p 83:83 \
 ```
 
 +++
-### Простой мониторинг ресурсов контейнера
+### Мониторим ресурсы контейнера
 
 ```shell
-docker run --rm -it \
-    --name ctop
-    -e DOCKER_HOST=tcp://dev10-srv16:2375
-    quay.io/vektorlab/ctop
+docker stats --all
 ```
