@@ -14,8 +14,8 @@
 ### Business
 - быстрая и безопасная опробация новых решений, в т.ч. переход на более дешёвый софт<!-- .element: class="fragment" -->
 - доступен для новый класс задач - дешёвые облачные решения, демо-зоны on-demand<!-- .element: class="fragment" -->
-- прозрачность и контролируемость системы на уровне приложений
+- прозрачность и контролируемость системы на уровне приложений<!-- .element: class="fragment" -->
 +++
 ### Enthusiasts
-- приминение контейнеров в системном программировании<!-- .element: class="fragment" -->
-    - ![](assets/rancheros.png)<!-- .element: class="fragment" -->
+Приминение контейнеров в системном программировании<!-- .element: class="fragment" -->
+![](assets/image/rancheros.png)<!-- .element: class="fragment" -->
