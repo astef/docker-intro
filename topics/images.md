@@ -46,9 +46,10 @@ EXPOSE 5432
   - `docker pull nginx`<!-- .element: class="fragment" -->
 - Много решений для приватных реестров<!-- .element: class="fragment" -->
   - по умолчанию требуется https (будет ошибка)<!-- .element: class="fragment" -->
-  - бесплатные решения обычно имеют проблемы с LDAP авторизацией<!-- .element: class="fragment" -->
-  - пример ProGet: https://srv10-proget.spb.helix.ru/<!-- .element: class="fragment" -->
-    - `docker login -u Admin -p Admin srv10-proget.spb.helix.ru/docker`<!-- .element: class="fragment" -->
-    - `docker tag myImage srv10-proget.spb.helix.ru/docker/hub/myImage`<!-- .element: class="fragment" -->
-    - `docker push srv10-proget.spb.helix.ru/docker/hub/myImage`<!-- .element: class="fragment" -->
+  - пример ProGet:<!-- .element: class="fragment" -->https://srv10-proget.spb.helix.ru/<!-- .element: class="fragment" -->
+```shell
+docker login -u Admin -p Admin srv10-proget.spb.helix.ru/docker
+docker tag myImage srv10-proget.spb.helix.ru/docker/hub/myImage
+docker push srv10-proget.spb.helix.ru/docker/hub/myImage
+```
 

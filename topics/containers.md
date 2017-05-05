@@ -6,13 +6,8 @@
 - при запуске подключаются сети и тома
 +++
 ### Возможности
-- Логи `docker logs`, 9 драйверов, в т.ч.:
-  - json-file
-  - syslog
-  - journald
-  - gelf (Graylog/Logstash compatible)
-  - etwlogs (Event Tracing for Windows)
+- Логи `docker logs`, 9 драйверов
 - Мониторинг `docker stats`
-- Политики перезапуска `docker run --restart always`
+- Политики перезапуска
 - Ограничение ресурсов (cpu/mem/swap)
 - healthchecks
